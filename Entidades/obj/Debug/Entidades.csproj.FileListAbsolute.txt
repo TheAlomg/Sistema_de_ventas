@@ -1,0 +1,6 @@
+C:\Users\aleja\OneDrive\Escritorio\Universidad\programacion 3\proyeto sistema de ventas\Entidades\bin\Debug\Entidades.dll
+C:\Users\aleja\OneDrive\Escritorio\Universidad\programacion 3\proyeto sistema de ventas\Entidades\bin\Debug\Entidades.pdb
+C:\Users\aleja\OneDrive\Escritorio\Universidad\programacion 3\proyeto sistema de ventas\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\aleja\OneDrive\Escritorio\Universidad\programacion 3\proyeto sistema de ventas\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\aleja\OneDrive\Escritorio\Universidad\programacion 3\proyeto sistema de ventas\Entidades\obj\Debug\Entidades.dll
+C:\Users\aleja\OneDrive\Escritorio\Universidad\programacion 3\proyeto sistema de ventas\Entidades\obj\Debug\Entidades.pdb
