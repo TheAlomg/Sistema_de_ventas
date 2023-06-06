@@ -90,6 +90,7 @@ namespace presentacion
                 D_Proveedores Datos = new D_Proveedores();
                 cmbrol_us.DataSource = Datos.Listado_us();
                 cmbrol_us.ValueMember = "codigo_us";
+                cmbrol_us.DisplayMember = "nombre_us";
 
             }
             catch (Exception ex)
@@ -122,7 +123,7 @@ namespace presentacion
                 Txt_Banco_po.Text = dgvlistado.CurrentRow.Cells["banco_po"].Value.ToString();
                 Txt_Ncuenta_po.Text = dgvlistado.CurrentRow.Cells["ncuenta_po"].Value.ToString();
                 Txt_Contacto_po.Text = dgvlistado.CurrentRow.Cells["contacto_po"].Value.ToString();
-                cmbrol_us.Text = dgvlistado.CurrentRow.Cells["codigo_us"].Value.ToString();
+                cmbrol_us.Text = dgvlistado.CurrentRow.Cells["nombre_us"].Value.ToString();
             }
         }
         #endregion

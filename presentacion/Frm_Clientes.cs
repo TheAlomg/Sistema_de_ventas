@@ -83,7 +83,7 @@ namespace presentacion
                 D_Clientes Datos = new D_Clientes();
                 cmbrol_us.DataSource = Datos.Listado_us();
                 cmbrol_us.ValueMember = "codigo_us";
-
+                cmbrol_us.DisplayMember = "nombre_us";
             }
             catch (Exception ex)
             {
@@ -104,7 +104,7 @@ namespace presentacion
                 Txt_Ndocumento_cl.Text = dgvlistado.CurrentRow.Cells["documento_cl"].Value.ToString();
                 Txt_Direccion_cl.Text = dgvlistado.CurrentRow.Cells["direccion_cl"].Value.ToString();
                 Txt_Telefono_cl.Text = dgvlistado.CurrentRow.Cells["telefono_cl"].Value.ToString();
-                cmbrol_us.Text = dgvlistado.CurrentRow.Cells["codigo_us"].Value.ToString();
+                cmbrol_us.Text = dgvlistado.CurrentRow.Cells["nombre_us"].Value.ToString();
             }
         }
         #endregion
@@ -161,7 +161,7 @@ namespace presentacion
                 oCl.Telefono_cl = Txt_Telefono_cl.Text;
                 oCl.Codigo_us = Convert.ToInt32(cmbrol_us.SelectedValue);
                 D_Clientes Datos = new D_Clientes();
-                Rpta = Datos.Guardar_cl(nEstadoguarda, oCl);
+                Rpta = Datos.Guardar_cl(nEstadoguarda, oCl); 
                 bool esNumero = int.TryParse(Rpta, out int xCodigo);
                 if (esNumero == true)
                 {
